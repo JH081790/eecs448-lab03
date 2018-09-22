@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="exercise4.js" type="text/javascript"></script>
+        <title>Exercise 4</title>
+    </head>
+    <body>
+        <p id="editParagraph">This is some text wrapped in a paragraph tag</p>
+        <hr>
+        <h5 style="color: blue">RGB Values are from 0-255</h6>
+        <h4>Border Attributes</h4>
+        <ul>
+            <li><label for="redBorder">Red</label><input id="redBorder"
+                    type="text" value="0"></li>
+            <li><label for="greenBorder">Green</label><input id="greenBorder"
+                    type="text" value="0"></li>
+            <li><label for="blueBorder">Blue</label><input id="blueBorder"
+                    type="text" value="0"></li>
+            <li><label for="borderWidth">Width</label><input id="borderWidth"
+                    type="text" value="0"></li>
+        </ul>
+        <hr>
+        <h4>Background Color</h4>
+        <ul>
+            <li><label for="redBG">Red</label><input id="redBG"
+                    type="text" value="0"></li>
+            <li><label for="greenBG">Green</label><input id="greenBG"
+                    type="text" value="0"></li>
+            <li><label for="blueBG">Blue</label><input id="blueBG"
+                    type="text" value="0"></li>
+        </ul>
+        <br>
+        <button onclick="onUpdateParagraph()">Update</button>
+    </body>
+</html>
+
+<style>
+    input{
+        margin: 10px;
+    }
+</style>
